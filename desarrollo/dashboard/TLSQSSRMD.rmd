@@ -1,0 +1,165 @@
+---
+title: "Reporte"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+---
+
+```{r alistamiento, include=FALSE}
+library(flexdashboard)
+library(readr)
+library(lubridate)
+library(dplyr)
+library(forcats)
+library(ggplot2)
+library(magrittr)
+```
+
+
+```{r parametros}
+lista_parametros <- list(
+  min_company = 20,
+  top_companies = 7,
+  top_titles = 14, #máximo 15
+  carpeta_datos = "datos",
+  carpeta_datos_brutos = "brutos",
+  archivo_datos = "Levels_Fyi_Salary_Data.csv"
+)
+
+```
+
+
+```{r carga}
+lista_parametros %$%
+  file.path(
+    carpeta_datos,
+    carpeta_datos_brutos,
+    archivo_datos
+  ) %>% 
+  read_csv() -> tabla_datos_1
+
+```
+
+
+
+```{r transformacion}
+tabla_datos_1 %>% 
+  group_by(company) %>% 
+  mutate(
+    timestamp = as_datetime(timestamp, format = "%m/%d/%Y %H:%M:%S"),
+    n = n()
+    ) %>% 
+  filter(n > lista_parametros$min_company) %>% 
+  ungroup -> tabla_datos_2
+
+
+```
+
+
+```{r company}
+tabla_datos_2 %>% 
+  group_by(company) %>% 
+  summarise(avg_salary = mean(basesalary)) %>% 
+  top_n(lista_parametros$top_companies) -> tabla_top_companies
+
+
+tabla_datos_2 %>% 
+  inner_join(
+    tabla_top_companies, 
+    by = c("company" = "company")
+    ) %>% 
+  mutate(
+    company = fct_reorder(company, basesalary, mean)
+  ) %>% 
+  ggplot() +
+  aes(x = basesalary, y = company, colour  = company) +
+  geom_jitter(alpha = 0.2, shape = "●", size = 3) +
+  geom_point(stat = "summary", size = 7, shape = "◉") +
+  labs(x = "Salario base", y = "Empresa") +
+  theme_minimal() +
+  theme(legend.position = "none") -> chart_c
+
+tabla_datos_2 %>% 
+  mutate(
+    mes = round_date(timestamp, unit = "season")
+  ) %>% 
+  group_by(mes, company) %>%
+  summarise(basesalary = mean(basesalary)) %>%
+  inner_join(
+    tabla_top_companies, 
+    by = c("company" = "company")
+    ) %>% 
+  ungroup() -> tabla_datos_3
+
+tabla_datos_3 %>% 
+      group_by(company) %>% 
+      filter(mes == min(mes)) -> tabla_para_labels
+
+ggplot() +
+  geom_line(
+    aes(x = mes, y = basesalary, colour = company),
+    tabla_datos_3
+  ) +
+  geom_label(
+    aes(x = mes, y = basesalary, fill = company, label = company),
+    tabla_para_labels,
+    colour = "white"
+  ) +
+  labs(y = "Salario base", x = "Trimestre") +
+  theme_minimal() +
+  theme(legend.position = "none") -> chart_b
+
+
+
+```
+
+
+```{r title}
+tabla_datos_2 %>% 
+  group_by(title) %>% 
+  summarise(avg_salary = mean(basesalary)) %>% 
+  top_n(lista_parametros$top_titles) %>% 
+  mutate(
+    title = fct_reorder(title, avg_salary, mean)
+  ) -> tabla_top_titles
+
+tabla_top_titles %>% 
+  ggplot() +
+  aes(y = title, yend = title, xend = 0, x = avg_salary) +
+  geom_segment() + 
+  geom_point(size = 5, shape = "◉") +
+  labs(x = "Salario base", y = "Título") +
+  theme_minimal() -> chart_a
+
+```
+
+
+
+Column {data-width=450}
+-----------------------------------------------------------------------
+
+### Salario por título
+
+```{r, fig.width=4, fig.height=7}
+chart_a
+
+```
+
+Column {data-width=550}
+-----------------------------------------------------------------------
+
+### Top empresas en el tiempo
+
+```{r}
+chart_b
+
+```
+
+### Top empresas comparativo
+
+```{r}
+chart_c
+
+```
+
