@@ -81,8 +81,8 @@ tabla_datos_2 %>%
   ) %>% 
   ggplot() +
   aes(x = basesalary, y = company, colour  = company) +
-  geom_jitter(alpha = 0.2, shape = "●", size = 3) +
-  geom_point(stat = "summary", size = 7, shape = "◉") +
+  geom_jitter(alpha = 0.2, size = 3) +
+  geom_point(stat = "summary", size = 7) +
   labs(x = "Salario base", y = "Empresa") +
   theme_minimal() +
   theme(legend.position = "none") -> chart_c
@@ -135,7 +135,7 @@ tabla_top_titles %>%
   ggplot() +
   aes(y = title, yend = title, xend = 0, x = avg_salary) +
   geom_segment() + 
-  geom_point(size = 5, shape = "◉") +
+  geom_point(size = 5) +
   labs(x = "Salario base", y = "Título") +
   theme_minimal() -> chart_a
 
