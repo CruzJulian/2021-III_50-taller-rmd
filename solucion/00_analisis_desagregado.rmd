@@ -1,0 +1,1350 @@
+
+
+```{r}
+com <- "Accenture"
+
+tabla_datos_1 %>% 
+  filter(company == com) %>% 
+  ggplot + 
+  aes(title) +
+  geom_bar() +
+  coord_flip() +
+  theme_minimal() -> gg_obj_title_freq
+
+```
+
+## `r com`
+
+A continuación, se muestra la distribución del recurso humano de acuerdo a su título. Es posible observar en la gráfica, tanto la variedad en profesionales de la compañía `r com` como la concentración/dispersión de los roles y profesiones en su personal.
+
+```{r, fig.show="asis", fig.width=7, fig.height=5, include = TRUE}
+gg_obj_title_freq
+
+```
+
+
+
+
+
+
+```{r}
+com <- "Adobe"
+
+tabla_datos_1 %>% 
+  filter(company == com) %>% 
+  ggplot + 
+  aes(title) +
+  geom_bar() +
+  coord_flip() +
+  theme_minimal() -> gg_obj_title_freq
+
+```
+
+## `r com`
+
+A continuación, se muestra la distribución del recurso humano de acuerdo a su título. Es posible observar en la gráfica, tanto la variedad en profesionales de la compañía `r com` como la concentración/dispersión de los roles y profesiones en su personal.
+
+```{r, fig.show="asis", fig.width=7, fig.height=5, include = TRUE}
+gg_obj_title_freq
+
+```
+
+
+
+
+
+
+```{r}
+com <- "Airbnb"
+
+tabla_datos_1 %>% 
+  filter(company == com) %>% 
+  ggplot + 
+  aes(title) +
+  geom_bar() +
+  coord_flip() +
+  theme_minimal() -> gg_obj_title_freq
+
+```
+
+## `r com`
+
+A continuación, se muestra la distribución del recurso humano de acuerdo a su título. Es posible observar en la gráfica, tanto la variedad en profesionales de la compañía `r com` como la concentración/dispersión de los roles y profesiones en su personal.
+
+```{r, fig.show="asis", fig.width=7, fig.height=5, include = TRUE}
+gg_obj_title_freq
+
+```
+
+
+
+
+
+
+```{r}
+com <- "Amazon"
+
+tabla_datos_1 %>% 
+  filter(company == com) %>% 
+  ggplot + 
+  aes(title) +
+  geom_bar() +
+  coord_flip() +
+  theme_minimal() -> gg_obj_title_freq
+
+```
+
+## `r com`
+
+A continuación, se muestra la distribución del recurso humano de acuerdo a su título. Es posible observar en la gráfica, tanto la variedad en profesionales de la compañía `r com` como la concentración/dispersión de los roles y profesiones en su personal.
+
+```{r, fig.show="asis", fig.width=7, fig.height=5, include = TRUE}
+gg_obj_title_freq
+
+```
+
+
+
+
+
+
+```{r}
+com <- "Apple"
+
+tabla_datos_1 %>% 
+  filter(company == com) %>% 
+  ggplot + 
+  aes(title) +
+  geom_bar() +
+  coord_flip() +
+  theme_minimal() -> gg_obj_title_freq
+
+```
+
+## `r com`
+
+A continuación, se muestra la distribución del recurso humano de acuerdo a su título. Es posible observar en la gráfica, tanto la variedad en profesionales de la compañía `r com` como la concentración/dispersión de los roles y profesiones en su personal.
+
+```{r, fig.show="asis", fig.width=7, fig.height=5, include = TRUE}
+gg_obj_title_freq
+
+```
+
+
+
+
+
+
+```{r}
+com <- "Atlassian"
+
+tabla_datos_1 %>% 
+  filter(company == com) %>% 
+  ggplot + 
+  aes(title) +
+  geom_bar() +
+  coord_flip() +
+  theme_minimal() -> gg_obj_title_freq
+
+```
+
+## `r com`
+
+A continuación, se muestra la distribución del recurso humano de acuerdo a su título. Es posible observar en la gráfica, tanto la variedad en profesionales de la compañía `r com` como la concentración/dispersión de los roles y profesiones en su personal.
+
+```{r, fig.show="asis", fig.width=7, fig.height=5, include = TRUE}
+gg_obj_title_freq
+
+```
+
+
+
+
+
+
+```{r}
+com <- "Bloomberg"
+
+tabla_datos_1 %>% 
+  filter(company == com) %>% 
+  ggplot + 
+  aes(title) +
+  geom_bar() +
+  coord_flip() +
+  theme_minimal() -> gg_obj_title_freq
+
+```
+
+## `r com`
+
+A continuación, se muestra la distribución del recurso humano de acuerdo a su título. Es posible observar en la gráfica, tanto la variedad en profesionales de la compañía `r com` como la concentración/dispersión de los roles y profesiones en su personal.
+
+```{r, fig.show="asis", fig.width=7, fig.height=5, include = TRUE}
+gg_obj_title_freq
+
+```
+
+
+
+
+
+
+```{r}
+com <- "ByteDance"
+
+tabla_datos_1 %>% 
+  filter(company == com) %>% 
+  ggplot + 
+  aes(title) +
+  geom_bar() +
+  coord_flip() +
+  theme_minimal() -> gg_obj_title_freq
+
+```
+
+## `r com`
+
+A continuación, se muestra la distribución del recurso humano de acuerdo a su título. Es posible observar en la gráfica, tanto la variedad en profesionales de la compañía `r com` como la concentración/dispersión de los roles y profesiones en su personal.
+
+```{r, fig.show="asis", fig.width=7, fig.height=5, include = TRUE}
+gg_obj_title_freq
+
+```
+
+
+
+
+
+
+```{r}
+com <- "Capital One"
+
+tabla_datos_1 %>% 
+  filter(company == com) %>% 
+  ggplot + 
+  aes(title) +
+  geom_bar() +
+  coord_flip() +
+  theme_minimal() -> gg_obj_title_freq
+
+```
+
+## `r com`
+
+A continuación, se muestra la distribución del recurso humano de acuerdo a su título. Es posible observar en la gráfica, tanto la variedad en profesionales de la compañía `r com` como la concentración/dispersión de los roles y profesiones en su personal.
+
+```{r, fig.show="asis", fig.width=7, fig.height=5, include = TRUE}
+gg_obj_title_freq
+
+```
+
+
+
+
+
+
+```{r}
+com <- "Cisco"
+
+tabla_datos_1 %>% 
+  filter(company == com) %>% 
+  ggplot + 
+  aes(title) +
+  geom_bar() +
+  coord_flip() +
+  theme_minimal() -> gg_obj_title_freq
+
+```
+
+## `r com`
+
+A continuación, se muestra la distribución del recurso humano de acuerdo a su título. Es posible observar en la gráfica, tanto la variedad en profesionales de la compañía `r com` como la concentración/dispersión de los roles y profesiones en su personal.
+
+```{r, fig.show="asis", fig.width=7, fig.height=5, include = TRUE}
+gg_obj_title_freq
+
+```
+
+
+
+
+
+
+```{r}
+com <- "Dell Technologies"
+
+tabla_datos_1 %>% 
+  filter(company == com) %>% 
+  ggplot + 
+  aes(title) +
+  geom_bar() +
+  coord_flip() +
+  theme_minimal() -> gg_obj_title_freq
+
+```
+
+## `r com`
+
+A continuación, se muestra la distribución del recurso humano de acuerdo a su título. Es posible observar en la gráfica, tanto la variedad en profesionales de la compañía `r com` como la concentración/dispersión de los roles y profesiones en su personal.
+
+```{r, fig.show="asis", fig.width=7, fig.height=5, include = TRUE}
+gg_obj_title_freq
+
+```
+
+
+
+
+
+
+```{r}
+com <- "Deloitte"
+
+tabla_datos_1 %>% 
+  filter(company == com) %>% 
+  ggplot + 
+  aes(title) +
+  geom_bar() +
+  coord_flip() +
+  theme_minimal() -> gg_obj_title_freq
+
+```
+
+## `r com`
+
+A continuación, se muestra la distribución del recurso humano de acuerdo a su título. Es posible observar en la gráfica, tanto la variedad en profesionales de la compañía `r com` como la concentración/dispersión de los roles y profesiones en su personal.
+
+```{r, fig.show="asis", fig.width=7, fig.height=5, include = TRUE}
+gg_obj_title_freq
+
+```
+
+
+
+
+
+
+```{r}
+com <- "Dropbox"
+
+tabla_datos_1 %>% 
+  filter(company == com) %>% 
+  ggplot + 
+  aes(title) +
+  geom_bar() +
+  coord_flip() +
+  theme_minimal() -> gg_obj_title_freq
+
+```
+
+## `r com`
+
+A continuación, se muestra la distribución del recurso humano de acuerdo a su título. Es posible observar en la gráfica, tanto la variedad en profesionales de la compañía `r com` como la concentración/dispersión de los roles y profesiones en su personal.
+
+```{r, fig.show="asis", fig.width=7, fig.height=5, include = TRUE}
+gg_obj_title_freq
+
+```
+
+
+
+
+
+
+```{r}
+com <- "eBay"
+
+tabla_datos_1 %>% 
+  filter(company == com) %>% 
+  ggplot + 
+  aes(title) +
+  geom_bar() +
+  coord_flip() +
+  theme_minimal() -> gg_obj_title_freq
+
+```
+
+## `r com`
+
+A continuación, se muestra la distribución del recurso humano de acuerdo a su título. Es posible observar en la gráfica, tanto la variedad en profesionales de la compañía `r com` como la concentración/dispersión de los roles y profesiones en su personal.
+
+```{r, fig.show="asis", fig.width=7, fig.height=5, include = TRUE}
+gg_obj_title_freq
+
+```
+
+
+
+
+
+
+```{r}
+com <- "Expedia"
+
+tabla_datos_1 %>% 
+  filter(company == com) %>% 
+  ggplot + 
+  aes(title) +
+  geom_bar() +
+  coord_flip() +
+  theme_minimal() -> gg_obj_title_freq
+
+```
+
+## `r com`
+
+A continuación, se muestra la distribución del recurso humano de acuerdo a su título. Es posible observar en la gráfica, tanto la variedad en profesionales de la compañía `r com` como la concentración/dispersión de los roles y profesiones en su personal.
+
+```{r, fig.show="asis", fig.width=7, fig.height=5, include = TRUE}
+gg_obj_title_freq
+
+```
+
+
+
+
+
+
+```{r}
+com <- "Facebook"
+
+tabla_datos_1 %>% 
+  filter(company == com) %>% 
+  ggplot + 
+  aes(title) +
+  geom_bar() +
+  coord_flip() +
+  theme_minimal() -> gg_obj_title_freq
+
+```
+
+## `r com`
+
+A continuación, se muestra la distribución del recurso humano de acuerdo a su título. Es posible observar en la gráfica, tanto la variedad en profesionales de la compañía `r com` como la concentración/dispersión de los roles y profesiones en su personal.
+
+```{r, fig.show="asis", fig.width=7, fig.height=5, include = TRUE}
+gg_obj_title_freq
+
+```
+
+
+
+
+
+
+```{r}
+com <- "Goldman Sachs"
+
+tabla_datos_1 %>% 
+  filter(company == com) %>% 
+  ggplot + 
+  aes(title) +
+  geom_bar() +
+  coord_flip() +
+  theme_minimal() -> gg_obj_title_freq
+
+```
+
+## `r com`
+
+A continuación, se muestra la distribución del recurso humano de acuerdo a su título. Es posible observar en la gráfica, tanto la variedad en profesionales de la compañía `r com` como la concentración/dispersión de los roles y profesiones en su personal.
+
+```{r, fig.show="asis", fig.width=7, fig.height=5, include = TRUE}
+gg_obj_title_freq
+
+```
+
+
+
+
+
+
+```{r}
+com <- "Google"
+
+tabla_datos_1 %>% 
+  filter(company == com) %>% 
+  ggplot + 
+  aes(title) +
+  geom_bar() +
+  coord_flip() +
+  theme_minimal() -> gg_obj_title_freq
+
+```
+
+## `r com`
+
+A continuación, se muestra la distribución del recurso humano de acuerdo a su título. Es posible observar en la gráfica, tanto la variedad en profesionales de la compañía `r com` como la concentración/dispersión de los roles y profesiones en su personal.
+
+```{r, fig.show="asis", fig.width=7, fig.height=5, include = TRUE}
+gg_obj_title_freq
+
+```
+
+
+
+
+
+
+```{r}
+com <- "IBM"
+
+tabla_datos_1 %>% 
+  filter(company == com) %>% 
+  ggplot + 
+  aes(title) +
+  geom_bar() +
+  coord_flip() +
+  theme_minimal() -> gg_obj_title_freq
+
+```
+
+## `r com`
+
+A continuación, se muestra la distribución del recurso humano de acuerdo a su título. Es posible observar en la gráfica, tanto la variedad en profesionales de la compañía `r com` como la concentración/dispersión de los roles y profesiones en su personal.
+
+```{r, fig.show="asis", fig.width=7, fig.height=5, include = TRUE}
+gg_obj_title_freq
+
+```
+
+
+
+
+
+
+```{r}
+com <- "Indeed"
+
+tabla_datos_1 %>% 
+  filter(company == com) %>% 
+  ggplot + 
+  aes(title) +
+  geom_bar() +
+  coord_flip() +
+  theme_minimal() -> gg_obj_title_freq
+
+```
+
+## `r com`
+
+A continuación, se muestra la distribución del recurso humano de acuerdo a su título. Es posible observar en la gráfica, tanto la variedad en profesionales de la compañía `r com` como la concentración/dispersión de los roles y profesiones en su personal.
+
+```{r, fig.show="asis", fig.width=7, fig.height=5, include = TRUE}
+gg_obj_title_freq
+
+```
+
+
+
+
+
+
+```{r}
+com <- "Intel"
+
+tabla_datos_1 %>% 
+  filter(company == com) %>% 
+  ggplot + 
+  aes(title) +
+  geom_bar() +
+  coord_flip() +
+  theme_minimal() -> gg_obj_title_freq
+
+```
+
+## `r com`
+
+A continuación, se muestra la distribución del recurso humano de acuerdo a su título. Es posible observar en la gráfica, tanto la variedad en profesionales de la compañía `r com` como la concentración/dispersión de los roles y profesiones en su personal.
+
+```{r, fig.show="asis", fig.width=7, fig.height=5, include = TRUE}
+gg_obj_title_freq
+
+```
+
+
+
+
+
+
+```{r}
+com <- "Intuit"
+
+tabla_datos_1 %>% 
+  filter(company == com) %>% 
+  ggplot + 
+  aes(title) +
+  geom_bar() +
+  coord_flip() +
+  theme_minimal() -> gg_obj_title_freq
+
+```
+
+## `r com`
+
+A continuación, se muestra la distribución del recurso humano de acuerdo a su título. Es posible observar en la gráfica, tanto la variedad en profesionales de la compañía `r com` como la concentración/dispersión de los roles y profesiones en su personal.
+
+```{r, fig.show="asis", fig.width=7, fig.height=5, include = TRUE}
+gg_obj_title_freq
+
+```
+
+
+
+
+
+
+```{r}
+com <- "JPMorgan Chase"
+
+tabla_datos_1 %>% 
+  filter(company == com) %>% 
+  ggplot + 
+  aes(title) +
+  geom_bar() +
+  coord_flip() +
+  theme_minimal() -> gg_obj_title_freq
+
+```
+
+## `r com`
+
+A continuación, se muestra la distribución del recurso humano de acuerdo a su título. Es posible observar en la gráfica, tanto la variedad en profesionales de la compañía `r com` como la concentración/dispersión de los roles y profesiones en su personal.
+
+```{r, fig.show="asis", fig.width=7, fig.height=5, include = TRUE}
+gg_obj_title_freq
+
+```
+
+
+
+
+
+
+```{r}
+com <- "LinkedIn"
+
+tabla_datos_1 %>% 
+  filter(company == com) %>% 
+  ggplot + 
+  aes(title) +
+  geom_bar() +
+  coord_flip() +
+  theme_minimal() -> gg_obj_title_freq
+
+```
+
+## `r com`
+
+A continuación, se muestra la distribución del recurso humano de acuerdo a su título. Es posible observar en la gráfica, tanto la variedad en profesionales de la compañía `r com` como la concentración/dispersión de los roles y profesiones en su personal.
+
+```{r, fig.show="asis", fig.width=7, fig.height=5, include = TRUE}
+gg_obj_title_freq
+
+```
+
+
+
+
+
+
+```{r}
+com <- "Lyft"
+
+tabla_datos_1 %>% 
+  filter(company == com) %>% 
+  ggplot + 
+  aes(title) +
+  geom_bar() +
+  coord_flip() +
+  theme_minimal() -> gg_obj_title_freq
+
+```
+
+## `r com`
+
+A continuación, se muestra la distribución del recurso humano de acuerdo a su título. Es posible observar en la gráfica, tanto la variedad en profesionales de la compañía `r com` como la concentración/dispersión de los roles y profesiones en su personal.
+
+```{r, fig.show="asis", fig.width=7, fig.height=5, include = TRUE}
+gg_obj_title_freq
+
+```
+
+
+
+
+
+
+```{r}
+com <- "Microsoft"
+
+tabla_datos_1 %>% 
+  filter(company == com) %>% 
+  ggplot + 
+  aes(title) +
+  geom_bar() +
+  coord_flip() +
+  theme_minimal() -> gg_obj_title_freq
+
+```
+
+## `r com`
+
+A continuación, se muestra la distribución del recurso humano de acuerdo a su título. Es posible observar en la gráfica, tanto la variedad en profesionales de la compañía `r com` como la concentración/dispersión de los roles y profesiones en su personal.
+
+```{r, fig.show="asis", fig.width=7, fig.height=5, include = TRUE}
+gg_obj_title_freq
+
+```
+
+
+
+
+
+
+```{r}
+com <- "Netflix"
+
+tabla_datos_1 %>% 
+  filter(company == com) %>% 
+  ggplot + 
+  aes(title) +
+  geom_bar() +
+  coord_flip() +
+  theme_minimal() -> gg_obj_title_freq
+
+```
+
+## `r com`
+
+A continuación, se muestra la distribución del recurso humano de acuerdo a su título. Es posible observar en la gráfica, tanto la variedad en profesionales de la compañía `r com` como la concentración/dispersión de los roles y profesiones en su personal.
+
+```{r, fig.show="asis", fig.width=7, fig.height=5, include = TRUE}
+gg_obj_title_freq
+
+```
+
+
+
+
+
+
+```{r}
+com <- "Nvidia"
+
+tabla_datos_1 %>% 
+  filter(company == com) %>% 
+  ggplot + 
+  aes(title) +
+  geom_bar() +
+  coord_flip() +
+  theme_minimal() -> gg_obj_title_freq
+
+```
+
+## `r com`
+
+A continuación, se muestra la distribución del recurso humano de acuerdo a su título. Es posible observar en la gráfica, tanto la variedad en profesionales de la compañía `r com` como la concentración/dispersión de los roles y profesiones en su personal.
+
+```{r, fig.show="asis", fig.width=7, fig.height=5, include = TRUE}
+gg_obj_title_freq
+
+```
+
+
+
+
+
+
+```{r}
+com <- "Oracle"
+
+tabla_datos_1 %>% 
+  filter(company == com) %>% 
+  ggplot + 
+  aes(title) +
+  geom_bar() +
+  coord_flip() +
+  theme_minimal() -> gg_obj_title_freq
+
+```
+
+## `r com`
+
+A continuación, se muestra la distribución del recurso humano de acuerdo a su título. Es posible observar en la gráfica, tanto la variedad en profesionales de la compañía `r com` como la concentración/dispersión de los roles y profesiones en su personal.
+
+```{r, fig.show="asis", fig.width=7, fig.height=5, include = TRUE}
+gg_obj_title_freq
+
+```
+
+
+
+
+
+
+```{r}
+com <- "PayPal"
+
+tabla_datos_1 %>% 
+  filter(company == com) %>% 
+  ggplot + 
+  aes(title) +
+  geom_bar() +
+  coord_flip() +
+  theme_minimal() -> gg_obj_title_freq
+
+```
+
+## `r com`
+
+A continuación, se muestra la distribución del recurso humano de acuerdo a su título. Es posible observar en la gráfica, tanto la variedad en profesionales de la compañía `r com` como la concentración/dispersión de los roles y profesiones en su personal.
+
+```{r, fig.show="asis", fig.width=7, fig.height=5, include = TRUE}
+gg_obj_title_freq
+
+```
+
+
+
+
+
+
+```{r}
+com <- "Qualcomm"
+
+tabla_datos_1 %>% 
+  filter(company == com) %>% 
+  ggplot + 
+  aes(title) +
+  geom_bar() +
+  coord_flip() +
+  theme_minimal() -> gg_obj_title_freq
+
+```
+
+## `r com`
+
+A continuación, se muestra la distribución del recurso humano de acuerdo a su título. Es posible observar en la gráfica, tanto la variedad en profesionales de la compañía `r com` como la concentración/dispersión de los roles y profesiones en su personal.
+
+```{r, fig.show="asis", fig.width=7, fig.height=5, include = TRUE}
+gg_obj_title_freq
+
+```
+
+
+
+
+
+
+```{r}
+com <- "Salesforce"
+
+tabla_datos_1 %>% 
+  filter(company == com) %>% 
+  ggplot + 
+  aes(title) +
+  geom_bar() +
+  coord_flip() +
+  theme_minimal() -> gg_obj_title_freq
+
+```
+
+## `r com`
+
+A continuación, se muestra la distribución del recurso humano de acuerdo a su título. Es posible observar en la gráfica, tanto la variedad en profesionales de la compañía `r com` como la concentración/dispersión de los roles y profesiones en su personal.
+
+```{r, fig.show="asis", fig.width=7, fig.height=5, include = TRUE}
+gg_obj_title_freq
+
+```
+
+
+
+
+
+
+```{r}
+com <- "SAP"
+
+tabla_datos_1 %>% 
+  filter(company == com) %>% 
+  ggplot + 
+  aes(title) +
+  geom_bar() +
+  coord_flip() +
+  theme_minimal() -> gg_obj_title_freq
+
+```
+
+## `r com`
+
+A continuación, se muestra la distribución del recurso humano de acuerdo a su título. Es posible observar en la gráfica, tanto la variedad en profesionales de la compañía `r com` como la concentración/dispersión de los roles y profesiones en su personal.
+
+```{r, fig.show="asis", fig.width=7, fig.height=5, include = TRUE}
+gg_obj_title_freq
+
+```
+
+
+
+
+
+
+```{r}
+com <- "ServiceNow"
+
+tabla_datos_1 %>% 
+  filter(company == com) %>% 
+  ggplot + 
+  aes(title) +
+  geom_bar() +
+  coord_flip() +
+  theme_minimal() -> gg_obj_title_freq
+
+```
+
+## `r com`
+
+A continuación, se muestra la distribución del recurso humano de acuerdo a su título. Es posible observar en la gráfica, tanto la variedad en profesionales de la compañía `r com` como la concentración/dispersión de los roles y profesiones en su personal.
+
+```{r, fig.show="asis", fig.width=7, fig.height=5, include = TRUE}
+gg_obj_title_freq
+
+```
+
+
+
+
+
+
+```{r}
+com <- "Shopify"
+
+tabla_datos_1 %>% 
+  filter(company == com) %>% 
+  ggplot + 
+  aes(title) +
+  geom_bar() +
+  coord_flip() +
+  theme_minimal() -> gg_obj_title_freq
+
+```
+
+## `r com`
+
+A continuación, se muestra la distribución del recurso humano de acuerdo a su título. Es posible observar en la gráfica, tanto la variedad en profesionales de la compañía `r com` como la concentración/dispersión de los roles y profesiones en su personal.
+
+```{r, fig.show="asis", fig.width=7, fig.height=5, include = TRUE}
+gg_obj_title_freq
+
+```
+
+
+
+
+
+
+```{r}
+com <- "Snap"
+
+tabla_datos_1 %>% 
+  filter(company == com) %>% 
+  ggplot + 
+  aes(title) +
+  geom_bar() +
+  coord_flip() +
+  theme_minimal() -> gg_obj_title_freq
+
+```
+
+## `r com`
+
+A continuación, se muestra la distribución del recurso humano de acuerdo a su título. Es posible observar en la gráfica, tanto la variedad en profesionales de la compañía `r com` como la concentración/dispersión de los roles y profesiones en su personal.
+
+```{r, fig.show="asis", fig.width=7, fig.height=5, include = TRUE}
+gg_obj_title_freq
+
+```
+
+
+
+
+
+
+```{r}
+com <- "Splunk"
+
+tabla_datos_1 %>% 
+  filter(company == com) %>% 
+  ggplot + 
+  aes(title) +
+  geom_bar() +
+  coord_flip() +
+  theme_minimal() -> gg_obj_title_freq
+
+```
+
+## `r com`
+
+A continuación, se muestra la distribución del recurso humano de acuerdo a su título. Es posible observar en la gráfica, tanto la variedad en profesionales de la compañía `r com` como la concentración/dispersión de los roles y profesiones en su personal.
+
+```{r, fig.show="asis", fig.width=7, fig.height=5, include = TRUE}
+gg_obj_title_freq
+
+```
+
+
+
+
+
+
+```{r}
+com <- "Square"
+
+tabla_datos_1 %>% 
+  filter(company == com) %>% 
+  ggplot + 
+  aes(title) +
+  geom_bar() +
+  coord_flip() +
+  theme_minimal() -> gg_obj_title_freq
+
+```
+
+## `r com`
+
+A continuación, se muestra la distribución del recurso humano de acuerdo a su título. Es posible observar en la gráfica, tanto la variedad en profesionales de la compañía `r com` como la concentración/dispersión de los roles y profesiones en su personal.
+
+```{r, fig.show="asis", fig.width=7, fig.height=5, include = TRUE}
+gg_obj_title_freq
+
+```
+
+
+
+
+
+
+```{r}
+com <- "Stripe"
+
+tabla_datos_1 %>% 
+  filter(company == com) %>% 
+  ggplot + 
+  aes(title) +
+  geom_bar() +
+  coord_flip() +
+  theme_minimal() -> gg_obj_title_freq
+
+```
+
+## `r com`
+
+A continuación, se muestra la distribución del recurso humano de acuerdo a su título. Es posible observar en la gráfica, tanto la variedad en profesionales de la compañía `r com` como la concentración/dispersión de los roles y profesiones en su personal.
+
+```{r, fig.show="asis", fig.width=7, fig.height=5, include = TRUE}
+gg_obj_title_freq
+
+```
+
+
+
+
+
+
+```{r}
+com <- "Tesla"
+
+tabla_datos_1 %>% 
+  filter(company == com) %>% 
+  ggplot + 
+  aes(title) +
+  geom_bar() +
+  coord_flip() +
+  theme_minimal() -> gg_obj_title_freq
+
+```
+
+## `r com`
+
+A continuación, se muestra la distribución del recurso humano de acuerdo a su título. Es posible observar en la gráfica, tanto la variedad en profesionales de la compañía `r com` como la concentración/dispersión de los roles y profesiones en su personal.
+
+```{r, fig.show="asis", fig.width=7, fig.height=5, include = TRUE}
+gg_obj_title_freq
+
+```
+
+
+
+
+
+
+```{r}
+com <- "Twitter"
+
+tabla_datos_1 %>% 
+  filter(company == com) %>% 
+  ggplot + 
+  aes(title) +
+  geom_bar() +
+  coord_flip() +
+  theme_minimal() -> gg_obj_title_freq
+
+```
+
+## `r com`
+
+A continuación, se muestra la distribución del recurso humano de acuerdo a su título. Es posible observar en la gráfica, tanto la variedad en profesionales de la compañía `r com` como la concentración/dispersión de los roles y profesiones en su personal.
+
+```{r, fig.show="asis", fig.width=7, fig.height=5, include = TRUE}
+gg_obj_title_freq
+
+```
+
+
+
+
+
+
+```{r}
+com <- "Uber"
+
+tabla_datos_1 %>% 
+  filter(company == com) %>% 
+  ggplot + 
+  aes(title) +
+  geom_bar() +
+  coord_flip() +
+  theme_minimal() -> gg_obj_title_freq
+
+```
+
+## `r com`
+
+A continuación, se muestra la distribución del recurso humano de acuerdo a su título. Es posible observar en la gráfica, tanto la variedad en profesionales de la compañía `r com` como la concentración/dispersión de los roles y profesiones en su personal.
+
+```{r, fig.show="asis", fig.width=7, fig.height=5, include = TRUE}
+gg_obj_title_freq
+
+```
+
+
+
+
+
+
+```{r}
+com <- "Visa"
+
+tabla_datos_1 %>% 
+  filter(company == com) %>% 
+  ggplot + 
+  aes(title) +
+  geom_bar() +
+  coord_flip() +
+  theme_minimal() -> gg_obj_title_freq
+
+```
+
+## `r com`
+
+A continuación, se muestra la distribución del recurso humano de acuerdo a su título. Es posible observar en la gráfica, tanto la variedad en profesionales de la compañía `r com` como la concentración/dispersión de los roles y profesiones en su personal.
+
+```{r, fig.show="asis", fig.width=7, fig.height=5, include = TRUE}
+gg_obj_title_freq
+
+```
+
+
+
+
+
+
+```{r}
+com <- "VMware"
+
+tabla_datos_1 %>% 
+  filter(company == com) %>% 
+  ggplot + 
+  aes(title) +
+  geom_bar() +
+  coord_flip() +
+  theme_minimal() -> gg_obj_title_freq
+
+```
+
+## `r com`
+
+A continuación, se muestra la distribución del recurso humano de acuerdo a su título. Es posible observar en la gráfica, tanto la variedad en profesionales de la compañía `r com` como la concentración/dispersión de los roles y profesiones en su personal.
+
+```{r, fig.show="asis", fig.width=7, fig.height=5, include = TRUE}
+gg_obj_title_freq
+
+```
+
+
+
+
+
+
+```{r}
+com <- "Walmart Labs"
+
+tabla_datos_1 %>% 
+  filter(company == com) %>% 
+  ggplot + 
+  aes(title) +
+  geom_bar() +
+  coord_flip() +
+  theme_minimal() -> gg_obj_title_freq
+
+```
+
+## `r com`
+
+A continuación, se muestra la distribución del recurso humano de acuerdo a su título. Es posible observar en la gráfica, tanto la variedad en profesionales de la compañía `r com` como la concentración/dispersión de los roles y profesiones en su personal.
+
+```{r, fig.show="asis", fig.width=7, fig.height=5, include = TRUE}
+gg_obj_title_freq
+
+```
+
+
+
+
+
+
+```{r}
+com <- "Wayfair"
+
+tabla_datos_1 %>% 
+  filter(company == com) %>% 
+  ggplot + 
+  aes(title) +
+  geom_bar() +
+  coord_flip() +
+  theme_minimal() -> gg_obj_title_freq
+
+```
+
+## `r com`
+
+A continuación, se muestra la distribución del recurso humano de acuerdo a su título. Es posible observar en la gráfica, tanto la variedad en profesionales de la compañía `r com` como la concentración/dispersión de los roles y profesiones en su personal.
+
+```{r, fig.show="asis", fig.width=7, fig.height=5, include = TRUE}
+gg_obj_title_freq
+
+```
+
+
+
+
+
+
+```{r}
+com <- "Workday"
+
+tabla_datos_1 %>% 
+  filter(company == com) %>% 
+  ggplot + 
+  aes(title) +
+  geom_bar() +
+  coord_flip() +
+  theme_minimal() -> gg_obj_title_freq
+
+```
+
+## `r com`
+
+A continuación, se muestra la distribución del recurso humano de acuerdo a su título. Es posible observar en la gráfica, tanto la variedad en profesionales de la compañía `r com` como la concentración/dispersión de los roles y profesiones en su personal.
+
+```{r, fig.show="asis", fig.width=7, fig.height=5, include = TRUE}
+gg_obj_title_freq
+
+```
+
+
+
+
+
+
+```{r}
+com <- "Yahoo"
+
+tabla_datos_1 %>% 
+  filter(company == com) %>% 
+  ggplot + 
+  aes(title) +
+  geom_bar() +
+  coord_flip() +
+  theme_minimal() -> gg_obj_title_freq
+
+```
+
+## `r com`
+
+A continuación, se muestra la distribución del recurso humano de acuerdo a su título. Es posible observar en la gráfica, tanto la variedad en profesionales de la compañía `r com` como la concentración/dispersión de los roles y profesiones en su personal.
+
+```{r, fig.show="asis", fig.width=7, fig.height=5, include = TRUE}
+gg_obj_title_freq
+
+```
+
+
+
+
+
+
+```{r}
+com <- "Yandex"
+
+tabla_datos_1 %>% 
+  filter(company == com) %>% 
+  ggplot + 
+  aes(title) +
+  geom_bar() +
+  coord_flip() +
+  theme_minimal() -> gg_obj_title_freq
+
+```
+
+## `r com`
+
+A continuación, se muestra la distribución del recurso humano de acuerdo a su título. Es posible observar en la gráfica, tanto la variedad en profesionales de la compañía `r com` como la concentración/dispersión de los roles y profesiones en su personal.
+
+```{r, fig.show="asis", fig.width=7, fig.height=5, include = TRUE}
+gg_obj_title_freq
+
+```
+
+
+
+
+
+
+```{r}
+com <- "Yelp"
+
+tabla_datos_1 %>% 
+  filter(company == com) %>% 
+  ggplot + 
+  aes(title) +
+  geom_bar() +
+  coord_flip() +
+  theme_minimal() -> gg_obj_title_freq
+
+```
+
+## `r com`
+
+A continuación, se muestra la distribución del recurso humano de acuerdo a su título. Es posible observar en la gráfica, tanto la variedad en profesionales de la compañía `r com` como la concentración/dispersión de los roles y profesiones en su personal.
+
+```{r, fig.show="asis", fig.width=7, fig.height=5, include = TRUE}
+gg_obj_title_freq
+
+```
+
+
+
+

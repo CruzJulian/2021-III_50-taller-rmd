@@ -1,0 +1,62 @@
+---
+title: "Reporte"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+---
+
+```{r alistamiento}
+library(flexdashboard)
+library(readr)
+library(lubridate)
+library(dplyr)
+library(forcats)
+library(ggplot2)
+library(magrittr)
+library(reticulate)
+
+```
+
+
+```{r procesamiento, child="00_procesamiento.rmd"}
+```
+
+
+El presente reporte da cuenta de algunas relaciones en los datos correspondientes a distintos empleos en empresas de tecnología.
+
+
+
+Column {data-width=450}
+-----------------------------------------------------------------------
+
+### Salario por título
+
+```{r, fig.width=4, fig.height=7}
+chart_a
+
+```
+
+
+Column {data-width=550}
+-----------------------------------------------------------------------
+
+### Top empresas en el tiempo
+
+```{r}
+chart_b
+
+```
+
+### Top empresas comparativo
+
+```{r}
+chart_c
+
+```
+
+
+### Ecuación
+
+$$\overline{x} = \frac{1}{n} \sum \limits_{i = 1}^n x_i$$
+

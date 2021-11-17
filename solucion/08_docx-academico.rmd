@@ -1,0 +1,78 @@
+---
+title: "Reporte"
+output:
+  word_document:
+    toc: TRUE
+    toc_depth: 2
+    reference_docx: 00_plantilla-pec.docx
+bibliography: 00_bibliografia.bib
+csl: 00_apa.csl
+---
+
+
+
+
+```{r alistamiento, include = FALSE, results = "hide", message = FALSE, warning = FALSE, fig.show = "hide"}
+library(knitr)
+library(readr)
+library(lubridate)
+library(dplyr)
+library(forcats)
+library(ggplot2)
+library(magrittr)
+```
+ 
+```{r opciones, include = FALSE, results = "hide", message = FALSE, warning = FALSE, fig.show = "hide"}
+opts_chunk$set(include = FALSE, results = "hide", message = FALSE, warning = FALSE, fig.show = "hide", echo = FALSE)
+
+```
+
+
+```{r procesamiento, child="00_procesamiento.rmd"}
+```
+
+
+# Informe laboral
+
+El presente reporte da cuenta de algunas relaciones en los datos correspondientes a distintos empleos en empresas de tecnología.
+
+El desarrollo del análisis estadístico presentado se realiza por medio del software R [@Rstats].
+
+
+## Salario por título
+
+```{r, fig.show="asis", fig.width=7, fig.height=5, include = TRUE}
+chart_a
+
+```
+
+## Top empresas en el tiempo
+
+```{r, fig.show="asis", fig.width=7, fig.height=5, include = TRUE}
+chart_b
+
+```
+
+## Top empresas comparativo
+
+```{r, fig.show="asis", fig.width=7, fig.height=5, include = TRUE}
+chart_c
+
+```
+
+## Salario base vs años de experiencia
+
+```{python, fig.show="asis", fig.width=7, fig.height=5, include = TRUE, fig.path = rprojroot::find_rstudio_root_file()}
+import pandas as pd
+import matplotlib.pyplot as plt
+
+tbl_datos_2 = r.tabla_datos_2
+
+tbl_datos_2.plot.scatter("yearsofexperience", "basesalary")
+plt.show()
+
+```
+
+# Referencias
+
+Se presentan las referencias consultadas. ^[Para el estilo de citación es posible consultar la URL https://www.zotero.org/styles, donde se encuentran los archivos de estilo de citación.]
