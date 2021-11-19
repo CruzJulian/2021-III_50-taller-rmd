@@ -1,0 +1,1550 @@
+
+
+
+```{r}
+caracter_empresa <- "Accenture"
+
+tabla_datos_1 %>% 
+  filter(company == caracter_empresa) %>% 
+  ggplot +
+  aes(title) +
+  geom_bar() +
+  coord_flip() +
+  theme_minimal() -> grafico_personal
+
+```
+
+## Análisis de la empresa `r caracter_empresa`
+
+En el marco del proyecto actual, se siguieron las parametrizaciones y las directices dictadas por el equipo de Ciencia de datos para encontrar la ditribución del personal en la empresa `r caracter_empresa`. A continuación, se observa en la gráfica.
+
+```{r, fig.show="asis", fig.width=7, fig.height=5, include = TRUE}
+
+grafico_personal
+
+```
+
+
+
+
+
+
+
+
+
+```{r}
+caracter_empresa <- "Adobe"
+
+tabla_datos_1 %>% 
+  filter(company == caracter_empresa) %>% 
+  ggplot +
+  aes(title) +
+  geom_bar() +
+  coord_flip() +
+  theme_minimal() -> grafico_personal
+
+```
+
+## Análisis de la empresa `r caracter_empresa`
+
+En el marco del proyecto actual, se siguieron las parametrizaciones y las directices dictadas por el equipo de Ciencia de datos para encontrar la ditribución del personal en la empresa `r caracter_empresa`. A continuación, se observa en la gráfica.
+
+```{r, fig.show="asis", fig.width=7, fig.height=5, include = TRUE}
+
+grafico_personal
+
+```
+
+
+
+
+
+
+
+
+
+```{r}
+caracter_empresa <- "Airbnb"
+
+tabla_datos_1 %>% 
+  filter(company == caracter_empresa) %>% 
+  ggplot +
+  aes(title) +
+  geom_bar() +
+  coord_flip() +
+  theme_minimal() -> grafico_personal
+
+```
+
+## Análisis de la empresa `r caracter_empresa`
+
+En el marco del proyecto actual, se siguieron las parametrizaciones y las directices dictadas por el equipo de Ciencia de datos para encontrar la ditribución del personal en la empresa `r caracter_empresa`. A continuación, se observa en la gráfica.
+
+```{r, fig.show="asis", fig.width=7, fig.height=5, include = TRUE}
+
+grafico_personal
+
+```
+
+
+
+
+
+
+
+
+
+```{r}
+caracter_empresa <- "Amazon"
+
+tabla_datos_1 %>% 
+  filter(company == caracter_empresa) %>% 
+  ggplot +
+  aes(title) +
+  geom_bar() +
+  coord_flip() +
+  theme_minimal() -> grafico_personal
+
+```
+
+## Análisis de la empresa `r caracter_empresa`
+
+En el marco del proyecto actual, se siguieron las parametrizaciones y las directices dictadas por el equipo de Ciencia de datos para encontrar la ditribución del personal en la empresa `r caracter_empresa`. A continuación, se observa en la gráfica.
+
+```{r, fig.show="asis", fig.width=7, fig.height=5, include = TRUE}
+
+grafico_personal
+
+```
+
+
+
+
+
+
+
+
+
+```{r}
+caracter_empresa <- "Apple"
+
+tabla_datos_1 %>% 
+  filter(company == caracter_empresa) %>% 
+  ggplot +
+  aes(title) +
+  geom_bar() +
+  coord_flip() +
+  theme_minimal() -> grafico_personal
+
+```
+
+## Análisis de la empresa `r caracter_empresa`
+
+En el marco del proyecto actual, se siguieron las parametrizaciones y las directices dictadas por el equipo de Ciencia de datos para encontrar la ditribución del personal en la empresa `r caracter_empresa`. A continuación, se observa en la gráfica.
+
+```{r, fig.show="asis", fig.width=7, fig.height=5, include = TRUE}
+
+grafico_personal
+
+```
+
+
+
+
+
+
+
+
+
+```{r}
+caracter_empresa <- "Atlassian"
+
+tabla_datos_1 %>% 
+  filter(company == caracter_empresa) %>% 
+  ggplot +
+  aes(title) +
+  geom_bar() +
+  coord_flip() +
+  theme_minimal() -> grafico_personal
+
+```
+
+## Análisis de la empresa `r caracter_empresa`
+
+En el marco del proyecto actual, se siguieron las parametrizaciones y las directices dictadas por el equipo de Ciencia de datos para encontrar la ditribución del personal en la empresa `r caracter_empresa`. A continuación, se observa en la gráfica.
+
+```{r, fig.show="asis", fig.width=7, fig.height=5, include = TRUE}
+
+grafico_personal
+
+```
+
+
+
+
+
+
+
+
+
+```{r}
+caracter_empresa <- "Bloomberg"
+
+tabla_datos_1 %>% 
+  filter(company == caracter_empresa) %>% 
+  ggplot +
+  aes(title) +
+  geom_bar() +
+  coord_flip() +
+  theme_minimal() -> grafico_personal
+
+```
+
+## Análisis de la empresa `r caracter_empresa`
+
+En el marco del proyecto actual, se siguieron las parametrizaciones y las directices dictadas por el equipo de Ciencia de datos para encontrar la ditribución del personal en la empresa `r caracter_empresa`. A continuación, se observa en la gráfica.
+
+```{r, fig.show="asis", fig.width=7, fig.height=5, include = TRUE}
+
+grafico_personal
+
+```
+
+
+
+
+
+
+
+
+
+```{r}
+caracter_empresa <- "ByteDance"
+
+tabla_datos_1 %>% 
+  filter(company == caracter_empresa) %>% 
+  ggplot +
+  aes(title) +
+  geom_bar() +
+  coord_flip() +
+  theme_minimal() -> grafico_personal
+
+```
+
+## Análisis de la empresa `r caracter_empresa`
+
+En el marco del proyecto actual, se siguieron las parametrizaciones y las directices dictadas por el equipo de Ciencia de datos para encontrar la ditribución del personal en la empresa `r caracter_empresa`. A continuación, se observa en la gráfica.
+
+```{r, fig.show="asis", fig.width=7, fig.height=5, include = TRUE}
+
+grafico_personal
+
+```
+
+
+
+
+
+
+
+
+
+```{r}
+caracter_empresa <- "Capital One"
+
+tabla_datos_1 %>% 
+  filter(company == caracter_empresa) %>% 
+  ggplot +
+  aes(title) +
+  geom_bar() +
+  coord_flip() +
+  theme_minimal() -> grafico_personal
+
+```
+
+## Análisis de la empresa `r caracter_empresa`
+
+En el marco del proyecto actual, se siguieron las parametrizaciones y las directices dictadas por el equipo de Ciencia de datos para encontrar la ditribución del personal en la empresa `r caracter_empresa`. A continuación, se observa en la gráfica.
+
+```{r, fig.show="asis", fig.width=7, fig.height=5, include = TRUE}
+
+grafico_personal
+
+```
+
+
+
+
+
+
+
+
+
+```{r}
+caracter_empresa <- "Cisco"
+
+tabla_datos_1 %>% 
+  filter(company == caracter_empresa) %>% 
+  ggplot +
+  aes(title) +
+  geom_bar() +
+  coord_flip() +
+  theme_minimal() -> grafico_personal
+
+```
+
+## Análisis de la empresa `r caracter_empresa`
+
+En el marco del proyecto actual, se siguieron las parametrizaciones y las directices dictadas por el equipo de Ciencia de datos para encontrar la ditribución del personal en la empresa `r caracter_empresa`. A continuación, se observa en la gráfica.
+
+```{r, fig.show="asis", fig.width=7, fig.height=5, include = TRUE}
+
+grafico_personal
+
+```
+
+
+
+
+
+
+
+
+
+```{r}
+caracter_empresa <- "Dell Technologies"
+
+tabla_datos_1 %>% 
+  filter(company == caracter_empresa) %>% 
+  ggplot +
+  aes(title) +
+  geom_bar() +
+  coord_flip() +
+  theme_minimal() -> grafico_personal
+
+```
+
+## Análisis de la empresa `r caracter_empresa`
+
+En el marco del proyecto actual, se siguieron las parametrizaciones y las directices dictadas por el equipo de Ciencia de datos para encontrar la ditribución del personal en la empresa `r caracter_empresa`. A continuación, se observa en la gráfica.
+
+```{r, fig.show="asis", fig.width=7, fig.height=5, include = TRUE}
+
+grafico_personal
+
+```
+
+
+
+
+
+
+
+
+
+```{r}
+caracter_empresa <- "Deloitte"
+
+tabla_datos_1 %>% 
+  filter(company == caracter_empresa) %>% 
+  ggplot +
+  aes(title) +
+  geom_bar() +
+  coord_flip() +
+  theme_minimal() -> grafico_personal
+
+```
+
+## Análisis de la empresa `r caracter_empresa`
+
+En el marco del proyecto actual, se siguieron las parametrizaciones y las directices dictadas por el equipo de Ciencia de datos para encontrar la ditribución del personal en la empresa `r caracter_empresa`. A continuación, se observa en la gráfica.
+
+```{r, fig.show="asis", fig.width=7, fig.height=5, include = TRUE}
+
+grafico_personal
+
+```
+
+
+
+
+
+
+
+
+
+```{r}
+caracter_empresa <- "Dropbox"
+
+tabla_datos_1 %>% 
+  filter(company == caracter_empresa) %>% 
+  ggplot +
+  aes(title) +
+  geom_bar() +
+  coord_flip() +
+  theme_minimal() -> grafico_personal
+
+```
+
+## Análisis de la empresa `r caracter_empresa`
+
+En el marco del proyecto actual, se siguieron las parametrizaciones y las directices dictadas por el equipo de Ciencia de datos para encontrar la ditribución del personal en la empresa `r caracter_empresa`. A continuación, se observa en la gráfica.
+
+```{r, fig.show="asis", fig.width=7, fig.height=5, include = TRUE}
+
+grafico_personal
+
+```
+
+
+
+
+
+
+
+
+
+```{r}
+caracter_empresa <- "eBay"
+
+tabla_datos_1 %>% 
+  filter(company == caracter_empresa) %>% 
+  ggplot +
+  aes(title) +
+  geom_bar() +
+  coord_flip() +
+  theme_minimal() -> grafico_personal
+
+```
+
+## Análisis de la empresa `r caracter_empresa`
+
+En el marco del proyecto actual, se siguieron las parametrizaciones y las directices dictadas por el equipo de Ciencia de datos para encontrar la ditribución del personal en la empresa `r caracter_empresa`. A continuación, se observa en la gráfica.
+
+```{r, fig.show="asis", fig.width=7, fig.height=5, include = TRUE}
+
+grafico_personal
+
+```
+
+
+
+
+
+
+
+
+
+```{r}
+caracter_empresa <- "Expedia"
+
+tabla_datos_1 %>% 
+  filter(company == caracter_empresa) %>% 
+  ggplot +
+  aes(title) +
+  geom_bar() +
+  coord_flip() +
+  theme_minimal() -> grafico_personal
+
+```
+
+## Análisis de la empresa `r caracter_empresa`
+
+En el marco del proyecto actual, se siguieron las parametrizaciones y las directices dictadas por el equipo de Ciencia de datos para encontrar la ditribución del personal en la empresa `r caracter_empresa`. A continuación, se observa en la gráfica.
+
+```{r, fig.show="asis", fig.width=7, fig.height=5, include = TRUE}
+
+grafico_personal
+
+```
+
+
+
+
+
+
+
+
+
+```{r}
+caracter_empresa <- "Facebook"
+
+tabla_datos_1 %>% 
+  filter(company == caracter_empresa) %>% 
+  ggplot +
+  aes(title) +
+  geom_bar() +
+  coord_flip() +
+  theme_minimal() -> grafico_personal
+
+```
+
+## Análisis de la empresa `r caracter_empresa`
+
+En el marco del proyecto actual, se siguieron las parametrizaciones y las directices dictadas por el equipo de Ciencia de datos para encontrar la ditribución del personal en la empresa `r caracter_empresa`. A continuación, se observa en la gráfica.
+
+```{r, fig.show="asis", fig.width=7, fig.height=5, include = TRUE}
+
+grafico_personal
+
+```
+
+
+
+
+
+
+
+
+
+```{r}
+caracter_empresa <- "Goldman Sachs"
+
+tabla_datos_1 %>% 
+  filter(company == caracter_empresa) %>% 
+  ggplot +
+  aes(title) +
+  geom_bar() +
+  coord_flip() +
+  theme_minimal() -> grafico_personal
+
+```
+
+## Análisis de la empresa `r caracter_empresa`
+
+En el marco del proyecto actual, se siguieron las parametrizaciones y las directices dictadas por el equipo de Ciencia de datos para encontrar la ditribución del personal en la empresa `r caracter_empresa`. A continuación, se observa en la gráfica.
+
+```{r, fig.show="asis", fig.width=7, fig.height=5, include = TRUE}
+
+grafico_personal
+
+```
+
+
+
+
+
+
+
+
+
+```{r}
+caracter_empresa <- "Google"
+
+tabla_datos_1 %>% 
+  filter(company == caracter_empresa) %>% 
+  ggplot +
+  aes(title) +
+  geom_bar() +
+  coord_flip() +
+  theme_minimal() -> grafico_personal
+
+```
+
+## Análisis de la empresa `r caracter_empresa`
+
+En el marco del proyecto actual, se siguieron las parametrizaciones y las directices dictadas por el equipo de Ciencia de datos para encontrar la ditribución del personal en la empresa `r caracter_empresa`. A continuación, se observa en la gráfica.
+
+```{r, fig.show="asis", fig.width=7, fig.height=5, include = TRUE}
+
+grafico_personal
+
+```
+
+
+
+
+
+
+
+
+
+```{r}
+caracter_empresa <- "IBM"
+
+tabla_datos_1 %>% 
+  filter(company == caracter_empresa) %>% 
+  ggplot +
+  aes(title) +
+  geom_bar() +
+  coord_flip() +
+  theme_minimal() -> grafico_personal
+
+```
+
+## Análisis de la empresa `r caracter_empresa`
+
+En el marco del proyecto actual, se siguieron las parametrizaciones y las directices dictadas por el equipo de Ciencia de datos para encontrar la ditribución del personal en la empresa `r caracter_empresa`. A continuación, se observa en la gráfica.
+
+```{r, fig.show="asis", fig.width=7, fig.height=5, include = TRUE}
+
+grafico_personal
+
+```
+
+
+
+
+
+
+
+
+
+```{r}
+caracter_empresa <- "Indeed"
+
+tabla_datos_1 %>% 
+  filter(company == caracter_empresa) %>% 
+  ggplot +
+  aes(title) +
+  geom_bar() +
+  coord_flip() +
+  theme_minimal() -> grafico_personal
+
+```
+
+## Análisis de la empresa `r caracter_empresa`
+
+En el marco del proyecto actual, se siguieron las parametrizaciones y las directices dictadas por el equipo de Ciencia de datos para encontrar la ditribución del personal en la empresa `r caracter_empresa`. A continuación, se observa en la gráfica.
+
+```{r, fig.show="asis", fig.width=7, fig.height=5, include = TRUE}
+
+grafico_personal
+
+```
+
+
+
+
+
+
+
+
+
+```{r}
+caracter_empresa <- "Intel"
+
+tabla_datos_1 %>% 
+  filter(company == caracter_empresa) %>% 
+  ggplot +
+  aes(title) +
+  geom_bar() +
+  coord_flip() +
+  theme_minimal() -> grafico_personal
+
+```
+
+## Análisis de la empresa `r caracter_empresa`
+
+En el marco del proyecto actual, se siguieron las parametrizaciones y las directices dictadas por el equipo de Ciencia de datos para encontrar la ditribución del personal en la empresa `r caracter_empresa`. A continuación, se observa en la gráfica.
+
+```{r, fig.show="asis", fig.width=7, fig.height=5, include = TRUE}
+
+grafico_personal
+
+```
+
+
+
+
+
+
+
+
+
+```{r}
+caracter_empresa <- "Intuit"
+
+tabla_datos_1 %>% 
+  filter(company == caracter_empresa) %>% 
+  ggplot +
+  aes(title) +
+  geom_bar() +
+  coord_flip() +
+  theme_minimal() -> grafico_personal
+
+```
+
+## Análisis de la empresa `r caracter_empresa`
+
+En el marco del proyecto actual, se siguieron las parametrizaciones y las directices dictadas por el equipo de Ciencia de datos para encontrar la ditribución del personal en la empresa `r caracter_empresa`. A continuación, se observa en la gráfica.
+
+```{r, fig.show="asis", fig.width=7, fig.height=5, include = TRUE}
+
+grafico_personal
+
+```
+
+
+
+
+
+
+
+
+
+```{r}
+caracter_empresa <- "JPMorgan Chase"
+
+tabla_datos_1 %>% 
+  filter(company == caracter_empresa) %>% 
+  ggplot +
+  aes(title) +
+  geom_bar() +
+  coord_flip() +
+  theme_minimal() -> grafico_personal
+
+```
+
+## Análisis de la empresa `r caracter_empresa`
+
+En el marco del proyecto actual, se siguieron las parametrizaciones y las directices dictadas por el equipo de Ciencia de datos para encontrar la ditribución del personal en la empresa `r caracter_empresa`. A continuación, se observa en la gráfica.
+
+```{r, fig.show="asis", fig.width=7, fig.height=5, include = TRUE}
+
+grafico_personal
+
+```
+
+
+
+
+
+
+
+
+
+```{r}
+caracter_empresa <- "LinkedIn"
+
+tabla_datos_1 %>% 
+  filter(company == caracter_empresa) %>% 
+  ggplot +
+  aes(title) +
+  geom_bar() +
+  coord_flip() +
+  theme_minimal() -> grafico_personal
+
+```
+
+## Análisis de la empresa `r caracter_empresa`
+
+En el marco del proyecto actual, se siguieron las parametrizaciones y las directices dictadas por el equipo de Ciencia de datos para encontrar la ditribución del personal en la empresa `r caracter_empresa`. A continuación, se observa en la gráfica.
+
+```{r, fig.show="asis", fig.width=7, fig.height=5, include = TRUE}
+
+grafico_personal
+
+```
+
+
+
+
+
+
+
+
+
+```{r}
+caracter_empresa <- "Lyft"
+
+tabla_datos_1 %>% 
+  filter(company == caracter_empresa) %>% 
+  ggplot +
+  aes(title) +
+  geom_bar() +
+  coord_flip() +
+  theme_minimal() -> grafico_personal
+
+```
+
+## Análisis de la empresa `r caracter_empresa`
+
+En el marco del proyecto actual, se siguieron las parametrizaciones y las directices dictadas por el equipo de Ciencia de datos para encontrar la ditribución del personal en la empresa `r caracter_empresa`. A continuación, se observa en la gráfica.
+
+```{r, fig.show="asis", fig.width=7, fig.height=5, include = TRUE}
+
+grafico_personal
+
+```
+
+
+
+
+
+
+
+
+
+```{r}
+caracter_empresa <- "Microsoft"
+
+tabla_datos_1 %>% 
+  filter(company == caracter_empresa) %>% 
+  ggplot +
+  aes(title) +
+  geom_bar() +
+  coord_flip() +
+  theme_minimal() -> grafico_personal
+
+```
+
+## Análisis de la empresa `r caracter_empresa`
+
+En el marco del proyecto actual, se siguieron las parametrizaciones y las directices dictadas por el equipo de Ciencia de datos para encontrar la ditribución del personal en la empresa `r caracter_empresa`. A continuación, se observa en la gráfica.
+
+```{r, fig.show="asis", fig.width=7, fig.height=5, include = TRUE}
+
+grafico_personal
+
+```
+
+
+
+
+
+
+
+
+
+```{r}
+caracter_empresa <- "Netflix"
+
+tabla_datos_1 %>% 
+  filter(company == caracter_empresa) %>% 
+  ggplot +
+  aes(title) +
+  geom_bar() +
+  coord_flip() +
+  theme_minimal() -> grafico_personal
+
+```
+
+## Análisis de la empresa `r caracter_empresa`
+
+En el marco del proyecto actual, se siguieron las parametrizaciones y las directices dictadas por el equipo de Ciencia de datos para encontrar la ditribución del personal en la empresa `r caracter_empresa`. A continuación, se observa en la gráfica.
+
+```{r, fig.show="asis", fig.width=7, fig.height=5, include = TRUE}
+
+grafico_personal
+
+```
+
+
+
+
+
+
+
+
+
+```{r}
+caracter_empresa <- "Nvidia"
+
+tabla_datos_1 %>% 
+  filter(company == caracter_empresa) %>% 
+  ggplot +
+  aes(title) +
+  geom_bar() +
+  coord_flip() +
+  theme_minimal() -> grafico_personal
+
+```
+
+## Análisis de la empresa `r caracter_empresa`
+
+En el marco del proyecto actual, se siguieron las parametrizaciones y las directices dictadas por el equipo de Ciencia de datos para encontrar la ditribución del personal en la empresa `r caracter_empresa`. A continuación, se observa en la gráfica.
+
+```{r, fig.show="asis", fig.width=7, fig.height=5, include = TRUE}
+
+grafico_personal
+
+```
+
+
+
+
+
+
+
+
+
+```{r}
+caracter_empresa <- "Oracle"
+
+tabla_datos_1 %>% 
+  filter(company == caracter_empresa) %>% 
+  ggplot +
+  aes(title) +
+  geom_bar() +
+  coord_flip() +
+  theme_minimal() -> grafico_personal
+
+```
+
+## Análisis de la empresa `r caracter_empresa`
+
+En el marco del proyecto actual, se siguieron las parametrizaciones y las directices dictadas por el equipo de Ciencia de datos para encontrar la ditribución del personal en la empresa `r caracter_empresa`. A continuación, se observa en la gráfica.
+
+```{r, fig.show="asis", fig.width=7, fig.height=5, include = TRUE}
+
+grafico_personal
+
+```
+
+
+
+
+
+
+
+
+
+```{r}
+caracter_empresa <- "PayPal"
+
+tabla_datos_1 %>% 
+  filter(company == caracter_empresa) %>% 
+  ggplot +
+  aes(title) +
+  geom_bar() +
+  coord_flip() +
+  theme_minimal() -> grafico_personal
+
+```
+
+## Análisis de la empresa `r caracter_empresa`
+
+En el marco del proyecto actual, se siguieron las parametrizaciones y las directices dictadas por el equipo de Ciencia de datos para encontrar la ditribución del personal en la empresa `r caracter_empresa`. A continuación, se observa en la gráfica.
+
+```{r, fig.show="asis", fig.width=7, fig.height=5, include = TRUE}
+
+grafico_personal
+
+```
+
+
+
+
+
+
+
+
+
+```{r}
+caracter_empresa <- "Qualcomm"
+
+tabla_datos_1 %>% 
+  filter(company == caracter_empresa) %>% 
+  ggplot +
+  aes(title) +
+  geom_bar() +
+  coord_flip() +
+  theme_minimal() -> grafico_personal
+
+```
+
+## Análisis de la empresa `r caracter_empresa`
+
+En el marco del proyecto actual, se siguieron las parametrizaciones y las directices dictadas por el equipo de Ciencia de datos para encontrar la ditribución del personal en la empresa `r caracter_empresa`. A continuación, se observa en la gráfica.
+
+```{r, fig.show="asis", fig.width=7, fig.height=5, include = TRUE}
+
+grafico_personal
+
+```
+
+
+
+
+
+
+
+
+
+```{r}
+caracter_empresa <- "Salesforce"
+
+tabla_datos_1 %>% 
+  filter(company == caracter_empresa) %>% 
+  ggplot +
+  aes(title) +
+  geom_bar() +
+  coord_flip() +
+  theme_minimal() -> grafico_personal
+
+```
+
+## Análisis de la empresa `r caracter_empresa`
+
+En el marco del proyecto actual, se siguieron las parametrizaciones y las directices dictadas por el equipo de Ciencia de datos para encontrar la ditribución del personal en la empresa `r caracter_empresa`. A continuación, se observa en la gráfica.
+
+```{r, fig.show="asis", fig.width=7, fig.height=5, include = TRUE}
+
+grafico_personal
+
+```
+
+
+
+
+
+
+
+
+
+```{r}
+caracter_empresa <- "SAP"
+
+tabla_datos_1 %>% 
+  filter(company == caracter_empresa) %>% 
+  ggplot +
+  aes(title) +
+  geom_bar() +
+  coord_flip() +
+  theme_minimal() -> grafico_personal
+
+```
+
+## Análisis de la empresa `r caracter_empresa`
+
+En el marco del proyecto actual, se siguieron las parametrizaciones y las directices dictadas por el equipo de Ciencia de datos para encontrar la ditribución del personal en la empresa `r caracter_empresa`. A continuación, se observa en la gráfica.
+
+```{r, fig.show="asis", fig.width=7, fig.height=5, include = TRUE}
+
+grafico_personal
+
+```
+
+
+
+
+
+
+
+
+
+```{r}
+caracter_empresa <- "ServiceNow"
+
+tabla_datos_1 %>% 
+  filter(company == caracter_empresa) %>% 
+  ggplot +
+  aes(title) +
+  geom_bar() +
+  coord_flip() +
+  theme_minimal() -> grafico_personal
+
+```
+
+## Análisis de la empresa `r caracter_empresa`
+
+En el marco del proyecto actual, se siguieron las parametrizaciones y las directices dictadas por el equipo de Ciencia de datos para encontrar la ditribución del personal en la empresa `r caracter_empresa`. A continuación, se observa en la gráfica.
+
+```{r, fig.show="asis", fig.width=7, fig.height=5, include = TRUE}
+
+grafico_personal
+
+```
+
+
+
+
+
+
+
+
+
+```{r}
+caracter_empresa <- "Shopify"
+
+tabla_datos_1 %>% 
+  filter(company == caracter_empresa) %>% 
+  ggplot +
+  aes(title) +
+  geom_bar() +
+  coord_flip() +
+  theme_minimal() -> grafico_personal
+
+```
+
+## Análisis de la empresa `r caracter_empresa`
+
+En el marco del proyecto actual, se siguieron las parametrizaciones y las directices dictadas por el equipo de Ciencia de datos para encontrar la ditribución del personal en la empresa `r caracter_empresa`. A continuación, se observa en la gráfica.
+
+```{r, fig.show="asis", fig.width=7, fig.height=5, include = TRUE}
+
+grafico_personal
+
+```
+
+
+
+
+
+
+
+
+
+```{r}
+caracter_empresa <- "Snap"
+
+tabla_datos_1 %>% 
+  filter(company == caracter_empresa) %>% 
+  ggplot +
+  aes(title) +
+  geom_bar() +
+  coord_flip() +
+  theme_minimal() -> grafico_personal
+
+```
+
+## Análisis de la empresa `r caracter_empresa`
+
+En el marco del proyecto actual, se siguieron las parametrizaciones y las directices dictadas por el equipo de Ciencia de datos para encontrar la ditribución del personal en la empresa `r caracter_empresa`. A continuación, se observa en la gráfica.
+
+```{r, fig.show="asis", fig.width=7, fig.height=5, include = TRUE}
+
+grafico_personal
+
+```
+
+
+
+
+
+
+
+
+
+```{r}
+caracter_empresa <- "Splunk"
+
+tabla_datos_1 %>% 
+  filter(company == caracter_empresa) %>% 
+  ggplot +
+  aes(title) +
+  geom_bar() +
+  coord_flip() +
+  theme_minimal() -> grafico_personal
+
+```
+
+## Análisis de la empresa `r caracter_empresa`
+
+En el marco del proyecto actual, se siguieron las parametrizaciones y las directices dictadas por el equipo de Ciencia de datos para encontrar la ditribución del personal en la empresa `r caracter_empresa`. A continuación, se observa en la gráfica.
+
+```{r, fig.show="asis", fig.width=7, fig.height=5, include = TRUE}
+
+grafico_personal
+
+```
+
+
+
+
+
+
+
+
+
+```{r}
+caracter_empresa <- "Square"
+
+tabla_datos_1 %>% 
+  filter(company == caracter_empresa) %>% 
+  ggplot +
+  aes(title) +
+  geom_bar() +
+  coord_flip() +
+  theme_minimal() -> grafico_personal
+
+```
+
+## Análisis de la empresa `r caracter_empresa`
+
+En el marco del proyecto actual, se siguieron las parametrizaciones y las directices dictadas por el equipo de Ciencia de datos para encontrar la ditribución del personal en la empresa `r caracter_empresa`. A continuación, se observa en la gráfica.
+
+```{r, fig.show="asis", fig.width=7, fig.height=5, include = TRUE}
+
+grafico_personal
+
+```
+
+
+
+
+
+
+
+
+
+```{r}
+caracter_empresa <- "Stripe"
+
+tabla_datos_1 %>% 
+  filter(company == caracter_empresa) %>% 
+  ggplot +
+  aes(title) +
+  geom_bar() +
+  coord_flip() +
+  theme_minimal() -> grafico_personal
+
+```
+
+## Análisis de la empresa `r caracter_empresa`
+
+En el marco del proyecto actual, se siguieron las parametrizaciones y las directices dictadas por el equipo de Ciencia de datos para encontrar la ditribución del personal en la empresa `r caracter_empresa`. A continuación, se observa en la gráfica.
+
+```{r, fig.show="asis", fig.width=7, fig.height=5, include = TRUE}
+
+grafico_personal
+
+```
+
+
+
+
+
+
+
+
+
+```{r}
+caracter_empresa <- "Tesla"
+
+tabla_datos_1 %>% 
+  filter(company == caracter_empresa) %>% 
+  ggplot +
+  aes(title) +
+  geom_bar() +
+  coord_flip() +
+  theme_minimal() -> grafico_personal
+
+```
+
+## Análisis de la empresa `r caracter_empresa`
+
+En el marco del proyecto actual, se siguieron las parametrizaciones y las directices dictadas por el equipo de Ciencia de datos para encontrar la ditribución del personal en la empresa `r caracter_empresa`. A continuación, se observa en la gráfica.
+
+```{r, fig.show="asis", fig.width=7, fig.height=5, include = TRUE}
+
+grafico_personal
+
+```
+
+
+
+
+
+
+
+
+
+```{r}
+caracter_empresa <- "Twitter"
+
+tabla_datos_1 %>% 
+  filter(company == caracter_empresa) %>% 
+  ggplot +
+  aes(title) +
+  geom_bar() +
+  coord_flip() +
+  theme_minimal() -> grafico_personal
+
+```
+
+## Análisis de la empresa `r caracter_empresa`
+
+En el marco del proyecto actual, se siguieron las parametrizaciones y las directices dictadas por el equipo de Ciencia de datos para encontrar la ditribución del personal en la empresa `r caracter_empresa`. A continuación, se observa en la gráfica.
+
+```{r, fig.show="asis", fig.width=7, fig.height=5, include = TRUE}
+
+grafico_personal
+
+```
+
+
+
+
+
+
+
+
+
+```{r}
+caracter_empresa <- "Uber"
+
+tabla_datos_1 %>% 
+  filter(company == caracter_empresa) %>% 
+  ggplot +
+  aes(title) +
+  geom_bar() +
+  coord_flip() +
+  theme_minimal() -> grafico_personal
+
+```
+
+## Análisis de la empresa `r caracter_empresa`
+
+En el marco del proyecto actual, se siguieron las parametrizaciones y las directices dictadas por el equipo de Ciencia de datos para encontrar la ditribución del personal en la empresa `r caracter_empresa`. A continuación, se observa en la gráfica.
+
+```{r, fig.show="asis", fig.width=7, fig.height=5, include = TRUE}
+
+grafico_personal
+
+```
+
+
+
+
+
+
+
+
+
+```{r}
+caracter_empresa <- "Visa"
+
+tabla_datos_1 %>% 
+  filter(company == caracter_empresa) %>% 
+  ggplot +
+  aes(title) +
+  geom_bar() +
+  coord_flip() +
+  theme_minimal() -> grafico_personal
+
+```
+
+## Análisis de la empresa `r caracter_empresa`
+
+En el marco del proyecto actual, se siguieron las parametrizaciones y las directices dictadas por el equipo de Ciencia de datos para encontrar la ditribución del personal en la empresa `r caracter_empresa`. A continuación, se observa en la gráfica.
+
+```{r, fig.show="asis", fig.width=7, fig.height=5, include = TRUE}
+
+grafico_personal
+
+```
+
+
+
+
+
+
+
+
+
+```{r}
+caracter_empresa <- "VMware"
+
+tabla_datos_1 %>% 
+  filter(company == caracter_empresa) %>% 
+  ggplot +
+  aes(title) +
+  geom_bar() +
+  coord_flip() +
+  theme_minimal() -> grafico_personal
+
+```
+
+## Análisis de la empresa `r caracter_empresa`
+
+En el marco del proyecto actual, se siguieron las parametrizaciones y las directices dictadas por el equipo de Ciencia de datos para encontrar la ditribución del personal en la empresa `r caracter_empresa`. A continuación, se observa en la gráfica.
+
+```{r, fig.show="asis", fig.width=7, fig.height=5, include = TRUE}
+
+grafico_personal
+
+```
+
+
+
+
+
+
+
+
+
+```{r}
+caracter_empresa <- "Walmart Labs"
+
+tabla_datos_1 %>% 
+  filter(company == caracter_empresa) %>% 
+  ggplot +
+  aes(title) +
+  geom_bar() +
+  coord_flip() +
+  theme_minimal() -> grafico_personal
+
+```
+
+## Análisis de la empresa `r caracter_empresa`
+
+En el marco del proyecto actual, se siguieron las parametrizaciones y las directices dictadas por el equipo de Ciencia de datos para encontrar la ditribución del personal en la empresa `r caracter_empresa`. A continuación, se observa en la gráfica.
+
+```{r, fig.show="asis", fig.width=7, fig.height=5, include = TRUE}
+
+grafico_personal
+
+```
+
+
+
+
+
+
+
+
+
+```{r}
+caracter_empresa <- "Wayfair"
+
+tabla_datos_1 %>% 
+  filter(company == caracter_empresa) %>% 
+  ggplot +
+  aes(title) +
+  geom_bar() +
+  coord_flip() +
+  theme_minimal() -> grafico_personal
+
+```
+
+## Análisis de la empresa `r caracter_empresa`
+
+En el marco del proyecto actual, se siguieron las parametrizaciones y las directices dictadas por el equipo de Ciencia de datos para encontrar la ditribución del personal en la empresa `r caracter_empresa`. A continuación, se observa en la gráfica.
+
+```{r, fig.show="asis", fig.width=7, fig.height=5, include = TRUE}
+
+grafico_personal
+
+```
+
+
+
+
+
+
+
+
+
+```{r}
+caracter_empresa <- "Workday"
+
+tabla_datos_1 %>% 
+  filter(company == caracter_empresa) %>% 
+  ggplot +
+  aes(title) +
+  geom_bar() +
+  coord_flip() +
+  theme_minimal() -> grafico_personal
+
+```
+
+## Análisis de la empresa `r caracter_empresa`
+
+En el marco del proyecto actual, se siguieron las parametrizaciones y las directices dictadas por el equipo de Ciencia de datos para encontrar la ditribución del personal en la empresa `r caracter_empresa`. A continuación, se observa en la gráfica.
+
+```{r, fig.show="asis", fig.width=7, fig.height=5, include = TRUE}
+
+grafico_personal
+
+```
+
+
+
+
+
+
+
+
+
+```{r}
+caracter_empresa <- "Yahoo"
+
+tabla_datos_1 %>% 
+  filter(company == caracter_empresa) %>% 
+  ggplot +
+  aes(title) +
+  geom_bar() +
+  coord_flip() +
+  theme_minimal() -> grafico_personal
+
+```
+
+## Análisis de la empresa `r caracter_empresa`
+
+En el marco del proyecto actual, se siguieron las parametrizaciones y las directices dictadas por el equipo de Ciencia de datos para encontrar la ditribución del personal en la empresa `r caracter_empresa`. A continuación, se observa en la gráfica.
+
+```{r, fig.show="asis", fig.width=7, fig.height=5, include = TRUE}
+
+grafico_personal
+
+```
+
+
+
+
+
+
+
+
+
+```{r}
+caracter_empresa <- "Yandex"
+
+tabla_datos_1 %>% 
+  filter(company == caracter_empresa) %>% 
+  ggplot +
+  aes(title) +
+  geom_bar() +
+  coord_flip() +
+  theme_minimal() -> grafico_personal
+
+```
+
+## Análisis de la empresa `r caracter_empresa`
+
+En el marco del proyecto actual, se siguieron las parametrizaciones y las directices dictadas por el equipo de Ciencia de datos para encontrar la ditribución del personal en la empresa `r caracter_empresa`. A continuación, se observa en la gráfica.
+
+```{r, fig.show="asis", fig.width=7, fig.height=5, include = TRUE}
+
+grafico_personal
+
+```
+
+
+
+
+
+
+
+
+
+```{r}
+caracter_empresa <- "Yelp"
+
+tabla_datos_1 %>% 
+  filter(company == caracter_empresa) %>% 
+  ggplot +
+  aes(title) +
+  geom_bar() +
+  coord_flip() +
+  theme_minimal() -> grafico_personal
+
+```
+
+## Análisis de la empresa `r caracter_empresa`
+
+En el marco del proyecto actual, se siguieron las parametrizaciones y las directices dictadas por el equipo de Ciencia de datos para encontrar la ditribución del personal en la empresa `r caracter_empresa`. A continuación, se observa en la gráfica.
+
+```{r, fig.show="asis", fig.width=7, fig.height=5, include = TRUE}
+
+grafico_personal
+
+```
+
+
+
+
+
+

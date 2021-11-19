@@ -35,7 +35,7 @@ lista_parametros <- list(
   carpeta_datos = "datos",
   carpeta_datos_brutos = "brutos",
   archivo_datos = "Levels_Fyi_Salary_Data.csv",
-  carpeta_desarrollo = "desarrollo",
+  carpeta_desarrollo = "solucion",
   archivo_plantilla_empresa = "00_plantilla-empresas.rmd",
   archivo_empresas_child_final = "00_child_final.rmd"
 )
