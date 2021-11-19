@@ -1,11 +1,12 @@
 ---
 title: "Reporte"
 output: 
-  html_document:
+  word_document:
     toc: true
-    toc_float: true
-    theme: flatly
-    number_sections: true
+    toc_depth: 2
+    reference_docx: 00_plantilla-pec.docx
+bibliography: 00_bibliografia.bib
+csl: 00_chicago.cls
 
 ---
 
@@ -36,8 +37,10 @@ options(scipen = 99)
 
 # Informe laboral
 
-El presente reporte da cuenta de algunas relaciones en los datos correspondientes a distintos empleos en empresas de tecnología.
 
+El presente reporte da cuenta de algunas relaciones en los datos correspondientes a distintos empleos en empresas de tecnología según @klitzing.
+
+Todo el desarrollo de los análisis estadísticos y los gráficos generados en este documento se realizaron utilizando el software R [@Rstats]. 
 
 ## Salario por título
 
@@ -52,6 +55,12 @@ chart_a
 chart_b
 
 ```
+
+
+# sección inventada
+
+
+
 
 ## Top empresas comparativo
 
@@ -76,4 +85,9 @@ plt.show()
 
 
 
+## Fórmula para la media muestral
 
+$$ \overline{x} = \frac{1}{n} \sum \limits_{i = 1}^n x_i $$
+
+
+# Referencias

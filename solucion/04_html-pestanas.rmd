@@ -3,10 +3,9 @@ title: "Reporte"
 output: 
   html_document:
     theme: flatly
-    number_sections: false
+    number_sections: true
+
 ---
-
-
 
 
 ```{r alistamiento, include = FALSE, results = "hide", message = FALSE, warning = FALSE, fig.show = "hide"}
@@ -17,21 +16,26 @@ library(dplyr)
 library(forcats)
 library(ggplot2)
 library(magrittr)
+library(reticulate)
+
 ```
  
 ```{r opciones, include = FALSE, results = "hide", message = FALSE, warning = FALSE, fig.show = "hide"}
 opts_chunk$set(include = FALSE, results = "hide", message = FALSE, warning = FALSE, fig.show = "hide", echo = FALSE)
 
+options(scipen = 99)
+
 ```
 
 
-```{r procesamiento, child="00_procesamiento.rmd"}
+```{r proc, child="00_procesamiento.rmd"}
 ```
 
 
-# {.tabset .tabset-pills}
+# Informe laboral{.tabset .tabset-pills}
 
 El presente reporte da cuenta de algunas relaciones en los datos correspondientes a distintos empleos en empresas de tecnología.
+
 
 ## Salario por título
 
@@ -54,6 +58,7 @@ chart_c
 
 ```
 
+
 ## Salario base vs años de experiencia
 
 ```{python, fig.show="asis", fig.width=7, fig.height=5, include = TRUE, fig.path = rprojroot::find_rstudio_root_file()}
@@ -66,4 +71,7 @@ tbl_datos_2.plot.scatter("yearsofexperience", "basesalary")
 plt.show()
 
 ```
+
+
+
 

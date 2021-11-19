@@ -1,0 +1,31 @@
+
+
+
+```{r}
+caracter_empresa <- "cual_empresa"
+
+tabla_datos_1 %>% 
+  filter(company == caracter_empresa) %>% 
+  ggplot +
+  aes(title) +
+  geom_bar() +
+  coord_flip() +
+  theme_minimal() -> grafico_personal
+
+```
+
+## Análisis de la empresa `r caracter_empresa`
+
+En el marco del proyecto actual, se siguieron las parametrizaciones y las directices dictadas por el equipo de Ciencia de datos para encontrar la ditribución del personal en la empresa `r caracter_empresa`. A continuación, se observa en la gráfica.
+
+```{r, fig.show="asis", fig.width=7, fig.height=5, include = TRUE}
+
+grafico_personal
+
+```
+
+
+
+
+
+

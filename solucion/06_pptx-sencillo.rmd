@@ -1,12 +1,6 @@
 ---
 title: "Reporte"
-output: 
-  html_document:
-    toc: true
-    toc_float: true
-    theme: flatly
-    number_sections: true
-
+output: powerpoint_presentation
 ---
 
 
@@ -73,6 +67,7 @@ tbl_datos_2.plot.scatter("yearsofexperience", "basesalary")
 plt.show()
 
 ```
+
 
 
 

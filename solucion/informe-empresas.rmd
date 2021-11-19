@@ -1,0 +1,109 @@
+---
+title: "Reporte"
+output: 
+  word_document:
+    toc: true
+    toc_depth: 2
+    reference_docx: 00_plantilla-pec.docx
+---
+
+
+```{r alistamiento, include = FALSE, results = "hide", message = FALSE, warning = FALSE, fig.show = "hide"}
+library(knitr)
+library(readr)
+library(stringr)
+library(lubridate)
+library(dplyr)
+library(forcats)
+library(ggplot2)
+library(magrittr)
+library(reticulate)
+
+```
+ 
+```{r opciones, include = FALSE, results = "hide", message = FALSE, warning = FALSE, fig.show = "hide"}
+opts_chunk$set(include = FALSE, results = "hide", message = FALSE, warning = FALSE, fig.show = "hide", echo = FALSE)
+
+```
+
+
+```{r parametros}
+lista_parametros <- list(
+  min_company = 20,
+  top_companies = 50,
+  top_titles = 14, #máximo 15
+  carpeta_datos = "datos",
+  carpeta_datos_brutos = "brutos",
+  archivo_datos = "Levels_Fyi_Salary_Data.csv",
+  carpeta_desarrollo = "desarrollo",
+  archivo_plantilla_empresa = "00_plantilla-empresas.rmd",
+  archivo_empresas_child_final = "00_child_final.rmd"
+)
+
+```
+
+
+```{r carga}
+lista_parametros %$%
+  file.path(
+    carpeta_datos,
+    carpeta_datos_brutos,
+    archivo_datos
+  ) %>% 
+  read_csv() -> tabla_datos_1
+
+```
+
+```{r top-empresas}
+tabla_datos_1 %>% 
+  count(company) %>% 
+  top_n(lista_parametros$top_companies) -> tabla_empresas
+  
+
+```
+
+
+```{r}
+lista_parametros %$%
+  file.path(
+    carpeta_desarrollo,
+    archivo_plantilla_empresa
+  ) %>% read_lines() %>% 
+  paste(collapse = "\n") -> texto_plantilla_empresa
+
+
+```
+
+
+```{r}
+lista_textos_empresas <- list()
+
+for(empresa in tabla_empresas$company){
+  str_replace(
+    texto_plantilla_empresa,
+    "cual_empresa",
+    empresa
+    ) -> lista_textos_empresas[empresa]
+}
+
+```
+
+```{r}
+lista_textos_empresas %>% 
+  paste(collapse = "\n") -> texto_final
+
+lista_parametros %$%
+  file.path(
+    carpeta_desarrollo,
+    archivo_empresas_child_final
+  ) -> caracter_ruta_child_final
+
+write_lines(texto_final, caracter_ruta_child_final)
+  
+
+lista_parametros$archivo_empresas_child_final
+```
+
+```{r, child=lista_parametros$archivo_empresas_child_final}
+```
+

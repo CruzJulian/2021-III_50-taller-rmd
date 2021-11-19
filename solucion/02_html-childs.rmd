@@ -1,12 +1,6 @@
 ---
 title: "Reporte"
-output: 
-  html_document:
-    toc: true
-    toc_float: true
-    theme: flatly
-    number_sections: true
-
+output: html_document
 ---
 
 
@@ -24,8 +18,6 @@ library(reticulate)
  
 ```{r opciones, include = FALSE, results = "hide", message = FALSE, warning = FALSE, fig.show = "hide"}
 opts_chunk$set(include = FALSE, results = "hide", message = FALSE, warning = FALSE, fig.show = "hide", echo = FALSE)
-
-options(scipen = 99)
 
 ```
 
